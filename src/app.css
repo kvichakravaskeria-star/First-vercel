@@ -212,6 +212,8 @@ footer {
     flex-direction: column;
     position: absolute;
     top: 80px;
+    right: 0;
+    gap: 20px;
     padding: 20px;
     background-color: #0b1020;
     width: 100%;
