@@ -1,7 +1,7 @@
 :root {
-  font-family: Inter,system-ui,Arial,sans-serif;
+  font-family:Arial,sans-serif;
   color:#f4f4f5;
-  background: #0b1020;
+  background: #463F3A;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -42,7 +42,7 @@ a {
   display: flex;
   justify-content: space-between ;
   align-items: center;
-  background-color: #0b1020;
+  background-color: #463F3A;
   border-bottom: 1px solid #242640;
 }
 
@@ -207,7 +207,7 @@ footer {
     position: absolute;
     top: 80px;
     right: 0;
-    background-color: #0b1020;
+    background-color: #463F3A;
     width: 100%;
     padding: 20px 0;
     border-top: 1px solid #242640;
