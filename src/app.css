@@ -1,7 +1,7 @@
 :root {
-  font-family:Arial,sans-serif;
+  font-family: Inter,system-ui,Arial,sans-serif;
   color:#f4f4f5;
-  background: #463F3A;
+  background: #0b1020;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -42,7 +42,7 @@ a {
   display: flex;
   justify-content: space-between ;
   align-items: center;
-  background-color: #463F3A;
+  background-color: #0b1020;
   border-bottom: 1px solid #242640;
 }
 
@@ -97,6 +97,7 @@ h1 {
   line-height: 1.08;
   letter-spacing: -2px;
   margin: 20px 0;
+  color: #f4f4f5;
 
 }
 
@@ -105,6 +106,7 @@ h2 {
   line-height: 1.08;
   letter-spacing: -1px;
   margin: 12px 0;
+  color: #f4f4f5;
 }
 
 .hero-text,.about-text >p:last-child {
@@ -207,7 +209,7 @@ footer {
     position: absolute;
     top: 80px;
     right: 0;
-    background-color: #463F3A;
+    background-color: #0b1020;
     width: 100%;
     padding: 20px 0;
     border-top: 1px solid #242640;
@@ -218,4 +220,15 @@ footer {
 .dedication {
   text-align: center;
   margin-top: 35px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+emphasize {
+  font-style: italic;
+  color: #a78bfa;
 }
