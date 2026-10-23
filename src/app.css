@@ -188,7 +188,7 @@ footer {
   }
 
   .projects-grid {
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: 1fr;
   }
 
   .hero-text, .about-text > p:last-child {
