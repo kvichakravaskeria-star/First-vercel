@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./app.css";
+import ryneImage from "./ryne.png";
 
 const projects = [
   {
@@ -93,11 +94,17 @@ function App() {
             ))}
           </div>
         </section>
-      </main>
 
-      <div className="dedication">
-        <p>Thank you for visiting my portfolio!</p>
-      </div>
+        <section className="dedication">
+          <p>Thank you for visiting my portfolio!</p>
+          <h1>
+            Dedicated to RYNE <emphasize>the girl am dreaming of</emphasize>
+          </h1>
+          <img src={ryneImage} alt="RYNE" />
+        </section>
+
+
+      </main>
 
       <footer className="footer">
         <p>Built with React and Vite</p>
